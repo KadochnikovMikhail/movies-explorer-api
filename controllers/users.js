@@ -49,8 +49,8 @@ module.exports.updateUser = (req, res, next) => {
     .catch((err) => {
       if (err.name === 'ValidationError') {
         next(new BadRequestError('Переданы некорректные данные при обновлении профиля.'));
-      }else if (err.name === 'CastError') {
-        next(new BadRequestError('Передан некорректный _id пользователя.'));
+      } else if (err.name === 'CastError') {
+        next(new ExistEmailError('Переданный email зарегистрирован у другого пользователя.'));
       } else {
         next(err);
       }
