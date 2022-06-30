@@ -1,7 +1,7 @@
 {
   "name": "movies-explorer-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Бэкенд дипломного проекта `Movies-Explorer` со следующими возможностями: авторизация и регистрация пользователей, сохранением и поиском фильмамов",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/KadochnikovMikhail/movies-explorer-api.git"
   },
-  "author": "",
+  "author": "Kadochnikov Mikhail",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KadochnikovMikhail/movies-explorer-api/issues"
