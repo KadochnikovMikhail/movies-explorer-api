@@ -26,7 +26,10 @@ app.use(requestLogger);
 app.use(cors({
   methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'],
   origin: [
-
+    'https://mov1es.explorer.nomoreparties.sbs',
+    'http://mov1es.explorer.nomoreparties.sbs',
+    'https://localhost:3000',
+    'http://localhost:3000',
   ],
 }));
 
