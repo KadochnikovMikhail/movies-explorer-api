@@ -1,4 +1,6 @@
 # movies-explorer-api
+Репозиторий для бэкенд части дипломного проекта `Movies-Explorer`. Возможности приложения: авторизация и регистрация пользователей, операции с фильмами и пользователями.
 
-Публичный IP: 51.250.83.71
-Домен: https://api.mov1es.explorer.nomoreparties.sbs/
+## Ссылки
+- Публичный IP: 51.250.83.71
+- Домен: https://api.mov1es.explorer.nomoreparties.sbs/
